@@ -23,3 +23,48 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+
+/* ANSWER */
+/* .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-links {
+  display: flex;
+  width: 700px;
+}
+
+.right-links {
+  display: flex;
+  width: 700px;
+  flex-direction: row-reverse;
+}
+
+li {
+  display: flex;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+} */
+
+/* CORRECTION */
+.header {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
